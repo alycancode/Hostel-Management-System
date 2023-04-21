@@ -68,19 +68,6 @@ class Administrator : public Student, public MessManager
         }
       }
       while(gender != "Male" && gender != "male" && gender != "female" && gender != "Female");
-      // while (true) 
-      // {
-      //   cout << "Enter gender (Male/Female): ";
-      //   getline(cin,User::gender);
-      //   transform(gender.begin(), gender.end(), gender.begin(), ::tolower);
-      //   if (gender == "male" || gender == "female")
-      //   {
-      //       break;
-      //   }
-      //   cout << "Invalid input. Please enter Male or Female.\n";
-      // }
-      // //cout<< "Enter email (xyz23@gmail.com): ";
-      //cin>> User::email; // alybilal16@gmail.com
      bool isValidEmail = false;
      while (!isValidEmail) {
      cout << "Enter email (xyz23@gmail.com): ";
